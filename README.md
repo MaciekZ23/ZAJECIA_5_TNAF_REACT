@@ -6,8 +6,8 @@ Repozytorium zawiera rozwiązania zadań z zajęć TNAF z użyciem **React**.
 
 1. **Tworzenie projektu z React’em**
 
-   - Generowanie projektu npm z Vite:
-   - Instalacja Reacta:
+   - Generowanie projektu npm z Vite.
+   - Instalacja Reacta.
    - Tworzenie komponentu `App`, który wyrenderuje tekst "Hello World!".
 
 2. **Zagnieżdżanie komponentów**
