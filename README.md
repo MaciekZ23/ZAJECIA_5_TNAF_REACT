@@ -2,21 +2,31 @@
 
 Repozytorium zawiera rozwiązania zadań z zajęć TNAF z użyciem **React**.
 
-## Zadania:
+## Zadania
 
 1. **Tworzenie projektu z React’em**
 
-   - Inicjalizacja aplikacji React.
+   - Generowanie projektu npm z Vite:
+   - Instalacja Reacta:
+   - Tworzenie komponentu `App`, który wyrenderuje tekst "Hello World!".
 
 2. **Zagnieżdżanie komponentów**
 
-   - Tworzenie komponentu z polem tekstowym, który ustawia focus na `input` po wyrenderowaniu.
+   - Generowanie projektu z Reactem i Vite:
+   - Tworzenie komponentu `ShowUser`, który przyjmuje:
+     - Imię
+     - Numer telefonu
+     - Kraj pochodzenia
+   - W komponencie `App` inicjalizacja listy użytkowników i renderowanie ich w pętli.
 
 3. **Hooki**
 
-   - Komponent z dwoma elementami:
-     - `input` – pole tekstowe
-     - `button` – przycisk ustawiający focus na `input`.
+   - Komponent z polem tekstowym, który ustawia focus na `input` po wyrenderowaniu.
 
-4. **Todo App**
-   - Aplikacja Todo: umożliwia tworzenie listy zadań.
+4. **Hooki i interakcje z użytkownikiem**
+
+   - Komponent z `input` i `button` ustawiający focus na `input` po naciśnięciu przycisku.
+   - Kolor tła i tekstu przycisku zmieniają się co sekundę.
+
+5. **Todo App**
+   - Tworzenie aplikacji do zarządzania listą zadań.
